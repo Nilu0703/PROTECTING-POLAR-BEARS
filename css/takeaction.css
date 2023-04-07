@@ -44,47 +44,7 @@ nav .brand h2 {
   text-shadow: 2px 2px 3px #fff;
   font-size: 0.16666667rem;
 }
-/* nav ul {
-  float: right;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-nav ul li {
-  list-style: none;
-}
-nav ul li a {
-  position: relative;
-  display: block;
-  height: 70px;
-  line-height: 70px;
-  padding: 0 20px;
-  box-sizing: border-box;
-  color: whitesmoke;
-  text-decoration: none;
-  text-transform: uppercase;
-  transition: 0.5s;
-  font-family: "Patrick Hand", cursive;
-  letter-spacing: 1px;
-}
 
-nav ul li a:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: tomato;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: 0.5s;
-  z-index: -1;
-}
-nav ul li a:hover:before {
-  transform-origin: left;
-  transform: scaleX(1);
-} */
 .navigation {
   position: fixed;
   top: 0.16666667rem;
@@ -187,6 +147,7 @@ ul li a:hover {
 .container-fluid {
   background: url(../img/givemefive.jpg);
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   margin-top: 0.58333333rem;
   padding: 0;
@@ -293,11 +254,7 @@ ul li a:hover {
   text-shadow: 1px 1px 0.5px grey;
   font-size: 0.16666667rem;
 }
-/* .container .box:hover .content h3 {
-  font-size: 20px;
-  margin: 10px 0;
-  padding: 0;
-} */
+
 .container .box:hover .content p {
   margin: 0;
   padding: 0;
@@ -338,36 +295,8 @@ ul li a:hover {
   font-weight: bolder;
   text-shadow: 1px 1px 0.5px grey;
 }
-@media all and (max-width: 1130px) {
-  /* nav ul {
-    display: block;
-    flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0.3);
-  }
-  nav ul li a {
-    text-align: center;
-  }
-  nav ul li a:hover {
-    color: #fff;
-  } */
-}
-@media all and (max-width: 780px) {
-  /* nav h2 {
-    flex-direction: column;
-  }
 
-  nav ul {
-    display: block;
-    flex-wrap: wrap;
-    background: rgba(0, 0, 0, 0.3);
-    width: 100%;
-  }
-  nav ul li a {
-    text-align: center;
-    font-weight: 700;
-    height: 50px;
-  } */
-}
+
 @media all and (max-width: 500px) {
   nav {
     padding-left: 0px;
